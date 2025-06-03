@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o footer fique no final */
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+main {
+    flex-grow: 1; /* Ocupa o espaço restante */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha no topo */
+}
+
+.button-id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    width: 100%;
+    max-width: 400px; /* Limita a largura em telas maiores */
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 40px); /* Ajusta a largura considerando o padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.button-id {
+    justify-items: center;
+    align-items: center;
+}
+
+button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 60%;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+.mensagem-erro {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.mensagem-sucesso {
+    color: #28a745;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.footer1 {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.footer2 {
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+/* Media Queries para telas maiores (opcional, mas bom para desktop) */
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+        align-items: center; /* Centraliza verticalmente em telas maiores */
+    }
+    .cadastro-form {
+        padding: 40px;
+    }
+}
