@@ -3,24 +3,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Lista de usuários e senhas. Certifique-se de que está correta e que você está testando com os nomes e senhas exatos.
     const usuariosPermitidos = [
-        { usuario: 'admin', senha: 'Enzzo.2010', pagina: 'admin.html', tokens: 999999 },
-        { usuario: 'grupo-1', senha: 'grupo_1.csj', pagina: 'g1.html', tokens: 2 },
-        { usuario: 'grupo-2', senha: 'grupo_2.csj', pagina: 'g2.html', tokens: 2 },
-        { usuario: 'grupo-3', senha: 'grupo_3.csj', pagina: 'g3.html', tokens: 2 },
-        { usuario: 'grupo-4', senha: 'grupo_4.csj', pagina: 'g4.html', tokens: 2 },
-        { usuario: 'grupo-5', senha: 'grupo_5.csj', pagina: 'g5.html', tokens: 2 },
-        { usuario: 'grupo-6', senha: 'grupo_6.csj', pagina: 'g6.html', tokens: 2 },
-        { usuario: 'grupo-7', senha: 'grupo_7.csj', pagina: 'g7.html', tokens: 2 },
-        { usuario: 'grupo-8', senha: 'grupo_8.csj', pagina: 'g8.html', tokens: 2 },
-        { usuario: 'grupo-9', senha: 'grupo_9.csj', pagina: 'g9.html', tokens: 2 },
-        { usuario: 'grupo-10', senha: 'grupo_10.csj', pagina: 'g10.html', tokens: 2 },
-        { usuario: 'grupo-11', senha: 'grupo_11.csj', pagina: 'g11.html', tokens: 2 },
-        { usuario: 'grupo-12', senha: 'grupo_12.csj', pagina: 'g12.html', tokens: 2 },
-        { usuario: 'grupo-13', senha: 'grupo_13.csj', pagina: 'g13.html', tokens: 2 },
-        { usuario: 'grupo-14', senha: 'grupo_14.csj', pagina: 'g14.html', tokens: 2 },
-        { usuario: 'grupo-15', senha: 'grupo_15.csj', pagina: 'g15.html', tokens: 2 },
-        { usuario: 'grupo-16', senha: 'grupo_16.csj', pagina: 'g16.html', tokens: 2 },
-        { usuario: 'grupo-17', senha: 'grupo_17.csj', pagina: 'g17.html', tokens: 2 },
+        { usuario: 'admin', senha: 'Enzzo.2010', pagina: 'admin.html'},
+        { usuario: 'grupo-1', senha: '12867512', pagina: 'admin.html'},
+        { usuario: 'grupo-2', senha: '43685311', pagina: 'admin.html'},
+        { usuario: 'grupo-3', senha: '87341234', pagina: 'admin.html'}
         
         // Verifique se os nomes das páginas estão corretos e existem na mesma pasta do index.html
     ];
