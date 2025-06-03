@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // URL do seu backend Python
-            const response = await fetch('http://Enzzo.pythonanywhere.com/ask_ai', { // Ajuste a URL se seu backend estiver em outro lugar
+            const response = await fetch('https://Enzzo.pythonanywhere.com/ask_ai', { // Ajuste a URL se seu backend estiver em outro lugar
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
