@@ -3,10 +3,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Lista de usuários e senhas. Certifique-se de que está correta e que você está testando com os nomes e senhas exatos.
     const usuariosPermitidos = [
-        { usuario: 'admin', senha: 'Enzzo.2010', pagina: 'admin.html'},
         { usuario: 'grupo-1', senha: '12867512', pagina: 'admin.html'},
         { usuario: 'grupo-2', senha: '43685311', pagina: 'admin.html'},
-        { usuario: 'grupo-3', senha: '87341234', pagina: 'admin.html'},
         { usuario: 'teste', senha: '1234', pagina: 'admin.html'}
         
         // Verifique se os nomes das páginas estão corretos e existem na mesma pasta do index.html
